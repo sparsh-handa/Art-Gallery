@@ -1,0 +1,47 @@
+#top {
+    background-color: rgb(110, 107, 107);
+}
+
+#navbarNav {
+    margin-left: 750px;
+}
+
+.nav-item {
+    font-size: 15px;
+}
+
+.nav-item:hover {
+    /* font-weight: bold; */
+    text-decoration: red underline;
+}
+
+#navbarImg {
+    margin-left: 20px;
+}
+
+.nav-link {
+    color: white;
+    /* font-size: 15px; */
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+        margin-left: auto !important;
+    }
+
+    .navbar-brand {
+        margin-right: 0;
+        margin-left: auto !important;
+    }
+
+    .nav-item,
+    .nav-link {
+        font-size: 14px;
+        padding-left: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+    }
+}
